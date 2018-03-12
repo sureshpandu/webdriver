@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [testngdemofile]">
+  <test name="testngdemo(failed)">
+    <classes>
+      <class name="testngprogrames.cookies">
+        <methods>
+          <include name="openbrowser"/>
+        </methods>
+      </class> <!-- testngprogrames.cookies -->
+      <class name="testngprogrames.orangehrm">
+        <methods>
+          <include name="logout"/>
+          <include name="openbrowser"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- testngprogrames.orangehrm -->
+    </classes>
+  </test> <!-- testngdemo(failed) -->
+</suite> <!-- Failed suite [testngdemofile] -->
